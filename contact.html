@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Deleglow Academy</title>
+<meta name="description" content="Get in touch with the Deleglow Academy team — general questions, partnerships, and press.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><circle cx=%2216%22 cy=%2216%22 r=%2216%22 fill=%22%23F2A63A%22/></svg>">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M16 5C11 5 6.5 6.8 4 8.6V24c2.5-1.8 7-3.6 12-3.6s9.5 1.8 12 3.6V8.6C25.5 6.8 21 5 16 5Z" stroke="#1B2340" stroke-width="1.6" stroke-linejoin="round"/>
+        <path d="M16 5v15.4" stroke="#1B2340" stroke-width="1.6"/>
+        <circle cx="16" cy="9.5" r="2.2" fill="#F2A63A"/>
+      </svg>
+      Deleglow Academy
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="about-academy.html">About Deleglow Academy</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="get-started.html" class="btn btn-glow">Get Started</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="container two-col">
+    <div class="col-copy">
+      <p class="eyebrow-plain">Contact</p>
+      <h1 style="font-size:clamp(2.2rem,4.4vw,3.2rem);">We'd like to hear from you.</h1>
+      <p class="lede">General questions, partnership inquiries, or press — the form goes to the same inbox either way.</p>
+
+      <div style="margin-top:40px;">
+        <h4>Email</h4>
+        <p><a href="mailto:hello@deleglowacademy.org">hello@deleglowacademy.org</a></p>
+      </div>
+      <div style="margin-top:24px;">
+        <h4>Partnerships</h4>
+        <p><a href="mailto:partners@deleglowacademy.org">partners@deleglowacademy.org</a></p>
+      </div>
+      <div style="margin-top:24px;">
+        <h4>Based</h4>
+        <p>Remote-first team, working with educators and partners worldwide.</p>
+      </div>
+      <p class="form-note">Placeholder contact details — replace with real addresses before launch.</p>
+    </div>
+
+    <div class="col-media">
+      <form data-site-form>
+        <div class="field">
+          <label for="c-name">Full name</label>
+          <input type="text" id="c-name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="c-email">Email address</label>
+          <input type="email" id="c-email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="c-topic">What's this about?</label>
+          <select id="c-topic" name="topic">
+            <option value="general">General question</option>
+            <option value="partnership">Partnership inquiry</option>
+            <option value="press">Press / media</option>
+            <option value="support">Support with an existing account</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="c-message">Message</label>
+          <textarea id="c-message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-glow" style="width:100%; justify-content:center;">Send message</button>
+        <p class="form-note" style="margin-top:14px;">This form is a placeholder — connect it to your email service or CRM before launch. No data is sent anywhere yet.</p>
+        <p class="form-status" role="status" style="display:none; margin-top:14px; font-weight:600; color:var(--leaf-deep);"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Deleglow Academy</div>
+        <p style="color:#9CA3C4; max-width: 32ch;">A global literacy platform equipping educators and parents to help every child read with confidence.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="about-academy.html">About Deleglow Academy</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get involved</h4>
+        <ul>
+          <li><a href="get-started.html">Get Started</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Partner with us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@deleglowacademy.org">hello@deleglowacademy.org</a></li>
+          <li>Remote-first, serving educators worldwide</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Deleglow Academy. All rights reserved.</span>
+      <span>Placeholder contact details — update before launch.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
