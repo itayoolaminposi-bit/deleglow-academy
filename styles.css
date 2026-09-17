@@ -222,6 +222,19 @@ hr.rule{ border: none; border-top: 1px solid var(--paper-line); margin: 0; }
 .hero-art{ position: relative; }
 .hero-art svg{ width: 100%; height: auto; }
 
+.hero-video{
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 10px;
+  display: block;
+  background: var(--paper-alt);
+}
+@media (max-width: 900px){
+  .hero-video{ height: 340px; }
+}
+
 /* ---------- Stat / trust strip ---------- */
 .stat-strip{
   display: flex;
@@ -392,3 +405,4 @@ textarea{ resize: vertical; min-height: 130px; }
 .mt-0{ margin-top: 0; }
 .section-head{ max-width: 640px; margin-bottom: 56px; }
 .section-head.center{ margin-left: auto; margin-right: auto; text-align: center; }
+sSs
